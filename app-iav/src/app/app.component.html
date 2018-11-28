@@ -1,0 +1,18 @@
+<div class="container">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link" router-link="/bar-chart">Line Chart</a>
+    </li>
+  </ul>
+  <div>
+    <router-outlet></router-outlet>
+  </div>
+  <div>
+    <app-log-panel></app-log-panel>
+  </div>
+</div>
+
+

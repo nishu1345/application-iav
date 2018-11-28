@@ -1,0 +1,7 @@
+<!-- log Panel component mark-up -->
+<h2>Logs</h2>
+  	<button class="clear"
+          (click)="logService.clear()">clear</button>
+  	<div *ngFor='let log of logService.logs'> {{log}} </div>
+
+
